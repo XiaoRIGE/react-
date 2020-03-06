@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.less';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js 66666666</code> and save to reload.
+          Edit <code>src/App.js 333333333333</code> and save to reload.
         </p>
         <a
           className="App-link"
