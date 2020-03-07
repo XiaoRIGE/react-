@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
-import './index.css'
-class Home extends Component {
+class Login extends Component {
     constructor(props) {
         super(props);
         this.state = {  }
     }
     render() { 
         return ( 
-            <div className="home-wrap">{this.props.children}</div>
+            <div>登录页面</div>
          );
     }
 }
  
-export default Home;
+export default Login;

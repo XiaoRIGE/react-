@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import menu from '../../config/menuConfig'
+import {NavLink} from 'react-router-dom'
 import { Menu } from 'antd';
 import './index.css'
 
@@ -31,7 +32,11 @@ class NavLeft extends Component {
                 )
             }
             return (
-                <Menu.Item title={v.title} key={v.key}>{v.title}</Menu.Item>
+                <Menu.Item title={v.title} key={v.key}>
+                    <NavLink to={v.key}>
+                        {v.title}
+                    </NavLink>
+                </Menu.Item>
             )
             
         })

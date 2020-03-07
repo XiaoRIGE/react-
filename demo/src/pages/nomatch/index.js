@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
-import './index.css'
-class Home extends Component {
+class noMatch extends Component {
     constructor(props) {
         super(props);
         this.state = {  }
     }
     render() { 
         return ( 
-            <div className="home-wrap">{this.props.children}</div>
+            <h1>sorry，小日正在搬运中</h1>
          );
     }
 }
  
-export default Home;
+export default noMatch;
