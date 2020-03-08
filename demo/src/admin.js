@@ -10,7 +10,7 @@ export default class Admin extends Component {
     render() {
         return (
             <Row className="container">
-                <Col span={3}>
+                <Col className="nav-left" span={3}>
                     <NavLeft ></NavLeft>
                 </Col>
                 <Col className="main" span={21}>

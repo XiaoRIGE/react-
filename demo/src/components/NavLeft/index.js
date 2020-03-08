@@ -43,12 +43,12 @@ class NavLeft extends Component {
     }
     render() {
         return (
-            <div>
+            <div >
                 <div className="logo">
                    <img src="/logo192.png" />
                    <h2>xx管理系统</h2>
                 </div>
-                <Menu className="nav-left" onClick={handleClick}  mode="vertical" theme="dark">
+                <Menu  onClick={handleClick}  mode="vertical" theme="dark">
                     {this.state.menuNode}
                 </Menu>
 

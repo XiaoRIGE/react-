@@ -1,6 +1,7 @@
 .logo {
     background: #002140;
     padding: 10px;
+    /* box-sizing: border-box; */
 }
 .logo img {
     width: 35px;
